@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/images/arthur-morgan-red-dead-redemption-2-4k-hd-games-4k-wallpaper-iwuzo4l3gjd8kclf.jpg);
+  background-size: cover;
+}
+body .puzzle {
+  display: flex;
+  justify-content: space-around;
+}
+body .puzzle .puzzle-pieces {
+  width: 465px;
+  height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 50px yellow;
+  margin-top: 50px;
+  background-color: black;
+}
+body .puzzle .puzzle-pieces .puzzle-piece {
+  margin: 2px 2px 2px 2px;
+  width: 149.5px;
+  height: 149.5px;
+}
+body .puzzle .puzzle-boxes {
+  box-sizing: border-box;
+  width: 450px;
+  height: 450px;
+  border: solid 1px rgb(255, 255, 255);
+  box-shadow: 0px 0px 50px yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body .puzzle .puzzle-boxes .puzzle-box {
+  width: 149.5px;
+  height: 149.5px;
+  border: solid 1px white;
+}
+body .puzzle .puzzle-boxes .puzzle-box img {
+  width: 149.5px;
+  height: 149.5px;
+}/*# sourceMappingURL=style.css.map */
