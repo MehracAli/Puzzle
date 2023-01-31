@@ -49,4 +49,21 @@ body{
             }
         }
     }
+
+    #win{
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 50px;
+        color: white;
+        display: none;
+        transition: 2s;
+        h1{
+            width: 900px;
+            margin: 250px auto;
+            text-align: center;
+        }
+    }
 }
